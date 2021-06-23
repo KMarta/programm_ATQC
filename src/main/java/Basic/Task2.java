@@ -1,5 +1,12 @@
 package Basic;
 
+// Task2 - use conditions "if" and  "case"Create 4 boolean variables(true,true,false,false) and compare them between themselves - result print in console.
+// Create 4 different numeric variables and compare them with the usage of <,<=,!=,==,===,>=,> . Explain result ·
+// Create 2 different strings. Compare them with usage if trinar operator and print "Not equal", "Equal" and explain ·
+// Explain difference betweeb &,|,&&,|| and provide example. ·
+// Create 2 string variables with same value but initialize one with literal and another with constructor.(String a ="lalala";
+// String b = new String("lalala");) Compare this values with usage of == and equal. Explain result
+
 public class Task2 {
     public static void main(String[] args) {
 

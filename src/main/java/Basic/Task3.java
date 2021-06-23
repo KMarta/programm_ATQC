@@ -46,9 +46,9 @@ public class Task3 {
     }
 }
 
-            /* SUBTASK 3 : Create an infinite loop.
-                *  for (int n = 1; n >= 1; n++) {  // This is an infinite loop as the condition would never return false.
-                *  System.out.println("The value of i is: " + n);  */
+/* SUBTASK 3 : Create an infinite loop.
+ *  for (int n = 1; n >= 1; n++) {  // This is an infinite loop as the condition would never return false.
+ *  System.out.println("The value of i is: " + n);  */
 
 
 

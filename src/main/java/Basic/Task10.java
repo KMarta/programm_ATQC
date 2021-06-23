@@ -1,14 +1,16 @@
 package Basic;
 
-import com.sun.javafx.binding.StringFormatter;
+//import com.sun.javafx.binding.StringFormatter;
 
 import java.util.Locale;
 
-import static javafx.scene.input.KeyCode.W;
-import static jdk.nashorn.internal.objects.NativeString.replace;
-import static jdk.nashorn.internal.objects.NativeString.trim;
+//import static javafx.scene.input.KeyCode.W;
+//import static jdk.nashorn.internal.objects.NativeString.replace;
+//import static jdk.nashorn.internal.objects.NativeString.trim;
 
 public class Task10 {
+    private static Object NumberFormatException;
+
     public static void main(String[] args) {
 
         // Create 2 different strings.  Concatenate them and print result. Explain what types of concatenation exists
@@ -73,17 +75,29 @@ public class Task10 {
 
                 //Create string "this item previous price $5.99 .Sale price $1.99. " - parse original and sale price from string and print them.
 
-                String strMsg = "his item previous price $5.99. Sale price $1.99 ";
-                String value1 = strMsg.replaceAll ("[^0-9\\.]","");
-                System.out.println("Parse prices -  " +  value1);
+                class NumberFormatExceptionExample {
+                    public void main(String[] args) {
+                        try {
+                            String strMsg = "this item previous price $5.99. Sale price $1.99 ";
+                            float value = Float.parseFloat(strMsg);
+                            //Float.parseFloat("(\d+\.\d+)\s(\d+\.\d+)"));
+                            System.out.println("Parse prices -  " + value);
+                        } catch (Exception e) {
+                            System.err.println("Invalid string in argumment");
+                        } finally {
+                            System.out.printf("return parse price" + "(\\d+\\.\\d+)\\s(\\d+\\.\\d+)\")");
 
-
-
-
+                        }
+                    }
+                }
             }
+        }
     }
 }
-}
+
+
+
+
 
 
 

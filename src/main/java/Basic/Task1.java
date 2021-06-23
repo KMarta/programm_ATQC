@@ -21,15 +21,15 @@ public class Task1 {
         System.out.println(a == b); // print true;
 
 
-        c =12.3f;
+        c = 12.3f;
         a = 10;
 
-        System.out.println( c < a); //print false
+        System.out.println(c < a); //print false
 
-       d = 15.6;
-       a = 10;
+        d = 15.6;
+        a = 10;
 
-        System.out.println(d !=a); // print true
+        System.out.println(d != a); // print true
 
         s1 = "basic";
         s2 = "secondString";
@@ -47,15 +47,15 @@ public class Task1 {
         String n2;
 
 
-     /* i == l1;  variables cant be compared if not initialize;
-      *   l1 == f1;
-      *  f1 == d1;
-      *  System.out.println(n1.equals(n2)); */
+        /* i == l1;  variables cant be compared if not initialize;
+         *   l1 == f1;
+         *  f1 == d1;
+         *  System.out.println(n1.equals(n2)); */
 
         // Assign the same value and compare them
 
-        int i1 =10;
-        int i2 =10;
+        int i1 = 10;
+        int i2 = 10;
         float f2 = 15.6f;
         float f3 = 15.6f;
         double d2 = 13.3;
@@ -75,7 +75,7 @@ public class Task1 {
         float f14 = 0.1f;
 
         System.out.println(f11 >= f12); //print false
-        System.out.println(f13< f14);  // print false
+        System.out.println(f13 < f14);  // print false
         System.out.println(f11 != f14); // print true
         System.out.println(f12 == f13); // print false
 
@@ -99,49 +99,23 @@ public class Task1 {
          */
 
         float f21 = -1.2f;
-        System.out.println(f21/0); // The result is INFINITY, with the sign depending on the sign of the operands.
+        System.out.println(f21 / 0); // The result is INFINITY, with the sign depending on the sign of the operands.
 
 
         //Divide values by 3 and assign result to variable.
 
-        int x =12;
-        System.out.println (x = x/3);
-        System.out.println( "New assign value of variables x is: " + x);
+        int x = 12;
+        System.out.println(x = x / 3);
+        System.out.println("New assign value of variables x is: " + x);
 
         // Divide values by 3.0 and assign result and make round operation.
 
         double d21 = 77.45;
-        System.out.println( d21 = 77.45/3); // Assign result
+        System.out.println(d21 = 77.45 / 3); // Assign result
         System.out.println(Math.round(d21)); // Math round () - round operation
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
-
-
-    
 
 
 }

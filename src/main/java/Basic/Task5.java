@@ -6,10 +6,10 @@ import java.util.ArrayList;
 public class Task5 {
     public static void main(String[] args) {
         ArrayList<String> cities = new ArrayList<String>();
-        cities.add( "Paris");  //  use the add() method to add elements to the ArrayList
-        cities.add( "London");
-        cities.add( "Kyiv");
-        cities.add( "Lviv" );
+        cities.add("Paris");  //  use the add() method to add elements to the ArrayList
+        cities.add("London");
+        cities.add("Kyiv");
+        cities.add("Lviv");
         cities.set(1, "Praga");  // To modify an element, use the set() method and refer to the index number
         cities.remove(2);  //  remove an element, use the remove() method and refer to the index number
         System.out.println(cities);

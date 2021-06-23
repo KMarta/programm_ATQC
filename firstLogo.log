@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-06-07T18:16:22.946117800Z</date>
+  <millis>1623089782946</millis>
+  <nanos>117800</nanos>
+  <sequence>0</sequence>
+  <logger>OOP.Logger.ConfigLogTest</logger>
+  <level>INFO</level>
+  <class>OOP.Logger.ConfigLogTest</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>My New Logo</message>
+</record>
+</log>
